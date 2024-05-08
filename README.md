@@ -31,22 +31,3 @@ pip install (dependency name)
   <img src="https://github.com/johndinofrio/ENPM690_Final_Project/blob/master/Report/500Q.gif">
   <br><b>Fig 2: Q-Learning playing Space Invaders with 500 Episodes of training</b><br>
 </p>
-
-## DQN Training and Testing
-
-<p align="center">
-  <img src="https://github.com/johndinofrio/ENPM690_Final_Project/blob/master/Report/DQN.png">
-  <br><b>Fig 3: DQN Reward vs Number of Steps (200 Episodes)</b><br>
-</p>
-
-<p align="center">
-  <img src="https://github.com/johndinofrio/ENPM690_Final_Project/blob/master/Report/ezgif.com-video-to-gif%20(1).gif">
-  <br><b>Fig 4: DQN playing Space Invaders with 200 Episodes of training</b><br>
-</p>
-
-
-
-
-
-
-
