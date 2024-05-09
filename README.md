@@ -32,7 +32,7 @@ pip install (dependency name)
 </p>
 
 <p align="center">
-  <img src="[https://github.com/OnkarPKher/ENPM690_Final_Project/GIF/500Q.gif](https://drive.google.com/file/d/1BPkTW6aeThW3zNS8DbjwoR1bah0H8i4f/view?usp=sharing)">
+  <img src="GIF/500Q.gif">
   <br><b>Fig 2: Q-Learning playing Space Invaders with 500 Episodes of training</b><br>
 </p>
 
