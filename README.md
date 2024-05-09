@@ -37,11 +37,11 @@ To begin training and testing your Q-learning model, follow the steps outlined b
 
 # Training
 Configure Your Environment: Set up your learning environment using the gym and retro libraries. You can choose from a variety of environments like Space Invaders.
-Initialize the Q-table: Create a Q-table that will store the values for each (state, action) pair. If the state space is too large, consider using a neural network as a function approximator.
-Set the Learning Parameters: Define the learning rate (alpha), discount factor (gamma), and exploration rate (epsilon). These will control the learning process.
-Start Training: For each episode:
+1) Initialize the Q-table: Create a Q-table that will store the values for each (state, action) pair. If the state space is too large, consider using a neural network as a function approximator.
+2) Set the Learning Parameters: Define the learning rate (alpha), discount factor (gamma), and exploration rate (epsilon). These will control the learning process.
+# Start Training: For each episode:
 Initialize the environment.
-For each step in the episode:
+# For each step in the episode:
 Choose an action using an ε-greedy policy: select a random action with probability ε or the action with the highest Q-value with probability 1-ε.
 Execute the action in the environment.
 Observe the new state and reward.
