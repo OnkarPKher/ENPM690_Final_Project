@@ -32,6 +32,9 @@ pip install (dependency name)
   <br><b>Fig 2: Q-Learning playing Space Invaders with 500 Episodes of training</b><br>
 </p>
 
+# How to run
+Run the code (.py) file on any IDE(VSC recommended) with all the dependencies installed 
+
 # Q-Learning Training and Testing
 To begin training and testing your Q-learning model, follow the steps outlined below:
 
