@@ -32,7 +32,7 @@ pip install (dependency name)
 </p>
 
 <p align="center">
-  <img src="GIF/500Q.gif">
+  <img src="GIF/Space_invader_scores.gif">
   <br><b>Fig 2: Q-Learning playing Space Invaders with 500 Episodes of training</b><br>
 </p>
 
