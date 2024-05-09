@@ -27,7 +27,7 @@ pip install (dependency name)
 ## Q-Learrning Training and Testing
 
 <p align="center">
-  <img src="https://github.com/johndinofrio/ENPM690_Final_Project/blob/master/Report/Training%20Reward%20vs%20Steps%20500.png">
+  <img src="https://github.com/OnkarPKher/ENPM690_Final_Project/GIF/Screenshot from 2024-05-09 18-53-23.png">
   <br><b>Fig 1: Q-Learning Reward vs Number of Steps (500 Episodes) </b><br>
 </p>
 
