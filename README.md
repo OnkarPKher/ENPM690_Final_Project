@@ -31,3 +31,23 @@ pip install (dependency name)
   <img src="https://github.com/johndinofrio/ENPM690_Final_Project/blob/master/Report/500Q.gif">
   <br><b>Fig 2: Q-Learning playing Space Invaders with 500 Episodes of training</b><br>
 </p>
+
+# Q-Learning Training and Testing
+To begin training and testing your Q-learning model, follow the steps outlined below:
+
+# Training
+Configure Your Environment: Set up your learning environment using the gym and retro libraries. You can choose from a variety of environments like Space Invaders.
+Initialize the Q-table: Create a Q-table that will store the values for each (state, action) pair. If the state space is too large, consider using a neural network as a function approximator.
+Set the Learning Parameters: Define the learning rate (alpha), discount factor (gamma), and exploration rate (epsilon). These will control the learning process.
+Start Training: For each episode:
+Initialize the environment.
+For each step in the episode:
+Choose an action using an ε-greedy policy: select a random action with probability ε or the action with the highest Q-value with probability 1-ε.
+Execute the action in the environment.
+Observe the new state and reward.
+Update the Q-table using the Bellman equation.
+If the episode ends (e.g., the game is over), break from the loop.
+Repeat for a Desired Number of Episodes: The number of episodes depends on your specific problem but start with at least 500 for basic convergence.
+# Testing
+Test the Trained Model: After training, test the model by running it through the environment without ε-greedy exploration (set ε to 0) to see how well it performs.
+Record the Outcomes: Keep track of the total rewards and the number of steps taken in each episode.
